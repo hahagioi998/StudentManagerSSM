@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+	<!--声明别名-->
+	<typeAliases>
+		<package name="cn.tx.model"/>
+	</typeAliases>
+
+	<mappers>
+		<mapper resource="config/mybatis/mapper/UserMapper.xml"></mapper>
+		<mapper resource="config/mybatis/mapper/StudentMapper.xml"></mapper>
+		<mapper resource="config/mybatis/mapper/GradeMapper.xml"></mapper>
+		<mapper resource="config/mybatis/mapper/ClazzMapper.xml"></mapper>
+	</mappers>
+</configuration>
